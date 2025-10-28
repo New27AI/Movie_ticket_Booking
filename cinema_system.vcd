@@ -1,0 +1,279 @@
+$date
+	Fri Apr  4 15:25:22 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module cinema_tb $end
+$var wire 8 ! total_booked [7:0] $end
+$var wire 8 " total_available [7:0] $end
+$var wire 5 # seat_status_out [4:0] $end
+$var wire 8 $ revenue [7:0] $end
+$var reg 1 % book_seat $end
+$var reg 1 & cancel_seat $end
+$var reg 1 ' clk $end
+$var reg 3 ( col [2:0] $end
+$var reg 1 ) reset $end
+$var reg 3 * row [2:0] $end
+$scope module uut $end
+$var wire 1 % book_seat $end
+$var wire 1 & cancel_seat $end
+$var wire 1 ' clk $end
+$var wire 3 + col [2:0] $end
+$var wire 1 ) reset $end
+$var wire 3 , row [2:0] $end
+$var reg 8 - revenue [7:0] $end
+$var reg 5 . seat_status_out [4:0] $end
+$var reg 8 / ticket_price [7:0] $end
+$var reg 8 0 total_available [7:0] $end
+$var reg 8 1 total_booked [7:0] $end
+$var integer 32 2 i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b101 2
+b0 1
+b11001 0
+b10010110 /
+bx .
+b0 -
+b0 ,
+b0 +
+b0 *
+1)
+b0 (
+0'
+0&
+0%
+b0 $
+bx #
+b11001 "
+b0 !
+$end
+#5
+b101 2
+1'
+#10
+0'
+0)
+#15
+b0 #
+b0 .
+1'
+#20
+0'
+1%
+#25
+b1 #
+b1 .
+b10010110 $
+b10010110 -
+b11000 "
+b11000 0
+b1 !
+b1 1
+1'
+#30
+0'
+0%
+#35
+1'
+#40
+0'
+1%
+b1 (
+b1 +
+b1 *
+b1 ,
+#45
+b10 #
+b10 .
+b101100 $
+b101100 -
+b10111 "
+b10111 0
+b10 !
+b10 1
+1'
+#50
+0'
+0%
+#55
+1'
+#60
+0'
+1%
+b10 (
+b10 +
+b10 *
+b10 ,
+#65
+b100 #
+b100 .
+b11000010 $
+b11000010 -
+b10110 "
+b10110 0
+b11 !
+b11 1
+1'
+#70
+0'
+0%
+#75
+1'
+#80
+0'
+1%
+b0 (
+b0 +
+b0 *
+b0 ,
+#85
+b1 #
+b1 .
+1'
+#90
+0'
+0%
+#95
+1'
+#100
+0'
+1&
+b1 (
+b1 +
+b1 *
+b1 ,
+#105
+b0 #
+b0 .
+b101100 $
+b101100 -
+b10111 "
+b10111 0
+b10 !
+b10 1
+1'
+#110
+0'
+0&
+#115
+1'
+#120
+0'
+1&
+b11 (
+b11 +
+b11 *
+b11 ,
+#125
+1'
+#130
+0'
+0&
+#135
+1'
+#140
+0'
+1%
+b0 (
+b0 +
+#145
+b1 #
+b1 .
+b11000010 $
+b11000010 -
+b10110 "
+b10110 0
+b11 !
+b11 1
+1'
+#150
+0'
+0%
+#155
+1'
+#160
+0'
+1%
+b1 (
+b1 +
+#165
+b11 #
+b11 .
+b1011000 $
+b1011000 -
+b10101 "
+b10101 0
+b100 !
+b100 1
+1'
+#170
+0'
+0%
+#175
+1'
+#180
+0'
+1%
+b10 (
+b10 +
+#185
+b111 #
+b111 .
+b11101110 $
+b11101110 -
+b10100 "
+b10100 0
+b101 !
+b101 1
+1'
+#190
+0'
+0%
+#195
+1'
+#200
+0'
+#205
+1'
+#210
+0'
+#215
+1'
+#220
+0'
+#225
+1'
+#230
+0'
+#235
+1'
+#240
+0'
+#245
+1'
+#250
+0'
+#255
+1'
+#260
+0'
+#265
+1'
+#270
+0'
+#275
+1'
+#280
+0'
+#285
+1'
+#290
+0'
